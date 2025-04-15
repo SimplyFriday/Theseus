@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-public class SelectionSetItem
+namespace Theseus.Models.Entities
 {
-    // type ordinal name description default value
+    public class SelectionSetItem
+    {
+        // type ordinal name description default value
+    }
 }

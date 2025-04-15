@@ -1,10 +1,13 @@
 using System.ComponentModel.DataAnnotations;
 
-public class SelectionSet
+namespace Theseus.Models.Entities
 {
-    [Required]
-    public required string Name { get; set; }
+    public class SelectionSet
+    {
+        [Required]
+        public required string Name { get; set; }
 
-    public List<SelectionSetItem> SelectionSetItems { get; set; } = new List<SelectionSetItem>();
+        public List<SelectionSetItem> SelectionSetItems { get; set; } = new List<SelectionSetItem>();
 
+    }
 }

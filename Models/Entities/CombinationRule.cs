@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-public class CombinationRule
+namespace Theseus.Models.Entities
 {
-    
+    public class CombinationRule
+    {
+
+    }
 }
