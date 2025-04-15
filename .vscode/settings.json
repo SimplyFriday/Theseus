@@ -1,0 +1,12 @@
+{
+    "FSharp.suggestGitignore": false,
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Theseus Local",
+            "database": "/home/friday/.local/share/theseus.db"
+        }
+    ]
+}
